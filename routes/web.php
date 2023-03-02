@@ -63,7 +63,7 @@ Route::any('/products/export/', [FoodItemController::class, 'export']);
 
 Route::any('/ecpay', [CheckoutController::class, 'sendOrder']);
 
-Route::any('/test', [CheckoutPostCollection::class, 'sendOrder']);
+//Route::any('/test', [CheckoutPostCollection::class, 'sendOrder']);
 
 //Route::get('/category', [CategoryController::class, 'index1']);
 
